@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+		<title>プログラマが物書きに首を突っ込む話</title>
 
 		<link rel="stylesheet" href="css/reveal.css">
 		<link rel="stylesheet" href="css/theme/black.css">
@@ -20,12 +20,326 @@
 			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
 			document.getElementsByTagName( 'head' )[0].appendChild( link );
 		</script>
+    <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 	</head>
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+        
+        <section data-markdown>
+          <script type="text/template">
+            # プログラマが物書きに首を突っ込む話
+            <br>
+            2016/12/26  
+            <br>
+            シーサー株式会社 インターン やぎにい
+          </script>
+        </section>
+        
+        <section data-markdown>
+          <script type="text/template">
+            ## 自己紹介
+            <br>
+            - 名前 : 青柳  樹  
+              
+            - エイリアス：やぎにい  
+
+            - GitHub : [yagi2](https://github.com/yagi2)  
+            - blog   : [blog.yagi2.com](https://blog.yagi2.com)
+            
+            <br>
+
+            <p class="fragment fade-up">好きなアイドルマスターのアイドル</p>
+            <p class="fragment fade-up" align="center">
+              <font color="#FFB6C1">小日向美穂</font><br>
+              🎂 今日（12/16）が誕生日 🎂
+            </p>
+          </script>
+        </section>
+        
+        <section data-markdown>
+          <script type="text/template">
+            ## プログラマの物書き
+            <br>
+            - ソースコード  
+              
+            - ドキュメント  
+
+            - チャット/メッセージ/メール
+          </script>
+        </section>
+
+        <section data-markdown>
+          <script type="text/template">
+            ## プログラマの物書き
+            <br>
+            経験上得た知識を外部に発信する
+            <br>
+
+            - Wiki（チームWiki）  
+              
+            - LT等でのスライド発表
+              
+            - <span class="fragment highlight-red">技術ブログ</span>
+          </script>
+        </section>
+        
+        <section data-markdown>
+          <script type="text/template">
+            ## 技術ブログ
+            <br>
+
+            - ブログサービス
+
+            - WordPressを使って構築
+
+            - <p class="fragment fade-up"><font color="#EFBE48">Middleman</font></p>
+          </script>
+        </section>
+        
+        <section data-markdown>
+          <script type="text/template">
+            ## Middleman
+            <br>
+            [GitHub - middleman/middleman](https://github.com/middleman/middleman)  
+              
+            Ruby製の「静的サイトジェネレーター」
+          </script>
+        </section>
+
+        <section data-markdown>
+          <script type="text/template">
+            ## Middleman
+            <br>
+            - [yagi2.com](https://yagi2.com)
+              - [GitHub - yagi2/yagi2.com](https://github.com/yagi2/yagi2.com)  
+
+            - [blog.yagi2.com](https://blog.yagi2.com)
+              - [GitHub - yagi2/blog](https://github.com/yagi2/blog)  
+
+            </script>
+        </section>
+
+        <section data-markdown>
+          <script type="text/template">
+            ## Middleman
+            <br>
+            特徴
+
+            - Markdownで本文を書ける
+
+              - [ブログでの記事 - Middlemanを使ってさくっとブログを立ち上げるぞい！](https://blog.yagi2.com/2016/08/27/how-to-build-blog-in-3-minutes.html)  
+                - [Markdownでの本文 - GitHub](https://raw.githubusercontent.com/yagi2/blog/master/source/posts/2016/08-27-how-to-build-blog-in-3-minutes.html.md)
+
+            - 記事の追加が簡単
+
+            ```
+            $ bundle exec middleman article [ARTICLE_TITLE]
+            $ bundle exec middleman build
+            ```
+            
+            </script>
+        </section>
+
+        <section data-markdown>
+          <script type="text/template">
+            ## Markdown
+            <br>
+            プログラマだとMarkdownを書く機会が多い
+            <br>
+            - issue
+            
+            - readme
+
+            - comment
+
+            <br>
+            <p class="fragment fade-up">Markdownで身の回りの物書きを統一しよう</p>
+            </script>
+        </section>
+
+        <section data-markdown>
+          <script type="text/template">
+            ## プログラマの物書き
+            <br>
+
+            - Wiki（チームWiki）  
+              
+            - <span class="fragment highlight-blue">LT等でのスライド発表</span>
+              
+            - <font color="#FB0F23">技術ブログ</font>
+          </script>
+        </section>
+          
+        <section data-markdown>
+          <script type="text/template">
+            ## スライド
+            <br>
+            
+            - PowerPoint
+
+            - Keynote
+
+            - <p class="fragment fade-up"><font color="#EFBE48">reveal.js</font></p>
+          </script>
+        </section>
+
+        <section data-markdown>
+          <script type="text/template">
+            ## reveal.js
+            <br>
+            [GitHub - hakimel/reveal.js](https://github.com/hakimel/reveal.js)  
+              
+            html/js/cssのプレゼンテーションフレームワーク
+          </script>
+        </section>
+
+        <section data-markdown>
+          <script type="text/template">
+            ## reveal.js
+            <br>
+
+            - [Kyoto.LT-2016-12-16](https://yagi2.github.io/Kyoto.LT-2016-12-16) ※ 今日のこのスライド
+              - [GitHub Kyoto.LT-2016-12-16](https://github.com/yagi2/Kyoto.LT-2016-12-16)
+          </script>
+        </section>
+        
+        <section data-markdown>
+          <script type="text/template">
+            ## reveal.js
+            <br>
+
+            特徴
+              
+            - Markdownで書ける（2回目）  
+              - テキストで書ける = gitでバージョン管理ができる
+
+            - Slideshare, SpeackerDockではなくGitHub Pages  
+              
+            - 軽量だが高機能
+
+            - HTMLなのでブラウザさえあれば良い
+
+            ```
+            $ git clone https://github.com/hakimel/reveal.js.git
+            $ cd reveal.js
+            $ open ./index.html
+            ``` 
+
+          </script>
+        </section>
+
+        <section data-markdown>
+          <script type="text/template">
+            ## プログラマの物書き
+            <br>
+
+            - <span class="fragment highlight-green">Wiki（チームWiki）</span> 
+              
+            - <font color="#1A79FF">LT等でのスライド発表</font>  
+              
+            - <font color="#FB0F23">技術ブログ</font>
+          </script>
+        </section>
+        
+        <section data-markdown>
+          <script type="text/template">
+            ## Wiki
+            <br>
+            
+            - esa
+
+            - Qiita:Team
+
+            - <p class="fragment fade-up"><font color="#EFBE48">Scrapbox</font></p>
+          </script>
+        </section>
+
+        <section data-markdown>
+          <script type="text/template">
+            ## Scrapbox
+            <br>
+
+            [Scrapbox](https://scrapbox.io/product)  
+              
+            NOTA Inc.(Gyazo)製のTeam Wiki
+          </script>
+        </section>
+        
+        <section data-markdown>
+          <script type="text/template">
+            ## Scrapbox
+            <br>
+
+            特徴
+
+            - ✨ 新しい ✨ （リリースノートが11月15日）  
+              
+            - 独自のシンプルな記法
+              - Markdownに似ていたりするのですぐ身につく
+
+            - リアルタイムで複数人同時編集可能
+          </script>
+        </section>
+
+        <section data-markdown>
+          <script type="text/template">
+            # プログラマが物書きに首を突っ込む話
+          </script>
+        </section>
+
+        <section data-markdown>
+          <script type="text/template">
+            ## 首をつっこむ
+            <br>
+
+            最初は何もわからない  
+              
+            のでとりあえず首を突っ込む
+              
+            何を知らないのか知るのは大切  
+              
+            広く知識があると役に立つ
+          </script>
+        </section>
+        
+        <section data-markdown>
+          <script type="text/template">
+            ## 首をつっこむ
+            <br>
+
+            今回は私が物を書くことに首を突っ込んだ話  
+            <br>
+            身近なものでもっと気軽にアウトプットしていこう。
+          </script>
+        </section>
+
+         <section data-markdown>
+           <script type="text/template">
+            ## 首をつっこむ
+            <br>
+
+            首を突っ込んだ結果は[blog](https://blog.yagi2.com)や[GitHub](https://github.com/yagi2)にアウトプット。
+                  
+            <br>
+            今日のLTも首を突っ込んだ成果になる。  
+          </script>
+        </section>
+
+        <section data-markdown>
+           <script type="text/template">
+            ## まとめ
+            <br>
+
+            - 物書きをしよう！
+              - 書く事で消耗するのはやめて身近な技術で  
+
+            - これからも首を突っ込んで色々な知識をつけていく   
+              - 首突っ込みたいリスト  
+
+          </script>
+        </section>
+
 			</div>
 		</div>
 
@@ -36,12 +350,11 @@
 			// More info https://github.com/hakimel/reveal.js#configuration
 			Reveal.initialize({
 				controls: false,
-				progress: true,
-				slideNumber: true,
-				history: false,
-				transition: 'linear',
-				transitionSpeed: 'slow',
-				
+        progress: true,
+        slideNumber: true,
+        history: true,
+        transition: 'none',
+
 				// More info https://github.com/hakimel/reveal.js#dependencies
 				dependencies: [
 					{ src: 'plugin/markdown/marked.js' },
